@@ -1,0 +1,312 @@
+
+body{
+
+
+    .conteneurheader h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    * {
+        font-family: Roboto, Arial, Verdana, sans-serif;
+    }
+
+
+
+    .logo {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .logoheader {
+        height: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+
+
+    .zonerecherche {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        background-color: rgb(230, 225, 225);
+        box-shadow: 0px 3px 1px lightgray inset
+    }
+
+
+
+    .zone1 {
+        display: flex;
+        font-size: 20px;
+        background-color: rgb(230, 225, 225);
+        color: black;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+
+    }
+
+
+
+    .formulaire {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        width: 100%;
+        flex-grow: 1;
+        background-color: rgb(230, 225, 225);
+        padding-left: 15px;
+
+    }
+
+
+    .zone2 {
+        border: none;
+        background-color: rgb(230, 225, 225);
+        font-size: medium;
+    }
+
+
+
+    .explorationrestaurants {
+        display: flex;
+        height: 40px;
+    
+        margin-bottom: 50px;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .lienexploration 
+    {
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        border-style: none;
+        padding: 25px;
+        background: linear-gradient(#FF79DA, #9356DC);
+        border-radius: 40px;
+      
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        border-style: none;
+
+    }
+
+
+/*
+
+    .explorationrestaurants, .lienexploration 
+    {
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        border-style: none;
+    }
+*/
+
+    .conteneurfinheader {
+        height: 300px;
+        background-color: rgb(245, 243, 243);
+        padding-top: 20px;
+    }
+
+
+
+
+.conteneurfonctionnement h2
+{
+margin: 40px;
+
+}
+
+
+.etapesfonctionnement
+{
+display: flex;
+flex-direction: column;
+}
+
+
+.choisissez, .composez, .degustez
+{
+display: flex;
+flex-direction: row;
+border-style: none;
+background-color:  rgb(245, 243, 243);
+border-radius: 20px;
+font-size: 25px;
+color: black;
+margin-bottom: 50px;
+justify-content:center;
+padding: 30px;
+}
+
+
+
+.etapesfonctionnement, .choisissez .fa-solid, .composez .fa-solid, .degustez .fa-solid
+{
+color: gray;
+padding: 0px 30px 0px 30px;
+}
+
+
+
+
+
+.choisissez .etape1, .composez .etape2, .degustez .etape3
+{
+    border-style: none;
+    border-radius: 20px;
+    padding: 2px 10px 2px 10px;
+    background-color: violet;
+    color: white;
+    font-size: smaller;
+}
+
+
+
+
+
+
+.conteneurrestaurants
+{
+display: flex;
+flex-direction: column;
+}
+
+
+
+.modelecarte {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-grow: 1;
+    height: 300px;
+    margin: 15px;
+}
+
+
+.partietexte 
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+
+.partietexte .fa-solid
+{
+font-size: 30px;
+color: blue;
+}
+
+
+.partiephoto
+{
+   position: relative;
+   width: 200px;
+   height: 150px;
+   margin: 20px;
+}
+
+
+
+
+.lesimages {
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #FF79DA;
+
+
+}
+
+
+.mentionnouveau
+{
+z-index: 1;
+background-color: aquamarine;
+color:darkgreen;
+padding: 3px;
+width: 70px;
+opacity: 0.9;
+}
+
+
+
+.nomresto, .villeresto
+{
+margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteneurfooter
+{
+background-color: rgb(53, 52, 52);
+color: white;
+}
+
+
+
+
+
+.textelogo p
+{
+    font-family: Shrikhand;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+
+
+.proposerunresto, .devenirpartenaire
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.elementsdufooter
+{
+margin-left: 30px;
+
+}
+
+.proposerunresto p, .devenirpartenaire p
+{
+margin: 10px 0px 10px 15px;
+}
+
+}

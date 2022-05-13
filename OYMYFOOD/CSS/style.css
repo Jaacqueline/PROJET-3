@@ -1,0 +1,296 @@
+body {
+  /*
+
+    .explorationrestaurants, .lienexploration 
+    {
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        border-style: none;
+    }
+*/
+}
+
+body .conteneurheader h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body * {
+  font-family: Roboto, Arial, Verdana, sans-serif;
+}
+
+body .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .logoheader {
+  height: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body .zonerecherche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60px;
+  background-color: #e6e1e1;
+  -webkit-box-shadow: 0px 3px 1px lightgray inset;
+          box-shadow: 0px 3px 1px lightgray inset;
+}
+
+body .zone1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  background-color: #e6e1e1;
+  color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10%;
+}
+
+body .formulaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80%;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #e6e1e1;
+  padding-left: 15px;
+}
+
+body .zone2 {
+  border: none;
+  background-color: #e6e1e1;
+  font-size: medium;
+}
+
+body .explorationrestaurants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .lienexploration {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  border-style: none;
+  padding: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  border-style: none;
+}
+
+body .conteneurfinheader {
+  height: 300px;
+  background-color: #f5f3f3;
+  padding-top: 20px;
+}
+
+body .conteneurfonctionnement h2 {
+  margin: 40px;
+}
+
+body .etapesfonctionnement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .choisissez, body .composez, body .degustez {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-style: none;
+  background-color: #f5f3f3;
+  border-radius: 20px;
+  font-size: 25px;
+  color: black;
+  margin-bottom: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+body .etapesfonctionnement, body .choisissez .fa-solid, body .composez .fa-solid, body .degustez .fa-solid {
+  color: gray;
+  padding: 0px 30px 0px 30px;
+}
+
+body .choisissez .etape1, body .composez .etape2, body .degustez .etape3 {
+  border-style: none;
+  border-radius: 20px;
+  padding: 2px 10px 2px 10px;
+  background-color: violet;
+  color: white;
+  font-size: smaller;
+}
+
+body .conteneurrestaurants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .modelecarte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: lightblue;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 300px;
+  margin: 15px;
+}
+
+body .partietexte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .partietexte .fa-solid {
+  font-size: 30px;
+  color: blue;
+}
+
+body .partiephoto {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+}
+
+body .lesimages {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #FF79DA;
+}
+
+body .mentionnouveau {
+  z-index: 1;
+  background-color: aquamarine;
+  color: darkgreen;
+  padding: 3px;
+  width: 70px;
+  opacity: 0.9;
+}
+
+body .nomresto, body .villeresto {
+  margin-left: 30px;
+}
+
+body .conteneurfooter {
+  background-color: #353434;
+  color: white;
+}
+
+body .textelogo p {
+  font-family: Shrikhand;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+body .proposerunresto, body .devenirpartenaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .elementsdufooter {
+  margin-left: 30px;
+}
+
+body .proposerunresto p, body .devenirpartenaire p {
+  margin: 10px 0px 10px 15px;
+}
+/*# sourceMappingURL=style.css.map */
