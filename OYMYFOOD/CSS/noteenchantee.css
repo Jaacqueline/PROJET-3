@@ -13,27 +13,8 @@ h1
 
 h3, p{
 font-family: Roboto, sans-serif;
-position: relative;
-}
-
-
-
-h3::after
-{
-content:"";      /*a mettre systematiquement avec tous les pseudo elements*/
-display: inline-block;
-height: 6px;
-width: 48px;
-background-color: red;
-position:absolute;
-left: 0px;
-bottom: -10px;
 
 }
-
-
-
-
 
 
 .flecheretouretlogo
@@ -80,13 +61,11 @@ object-fit: cover;
 
 .contenutexte
 {
-border-radius: 50px 50px 0px 0px;
-overflow: hidden;
-background-color: lightgray;
-margin-top: -40px;
-padding: 20px;
+   height: 100%;
+   width: 100%;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
 }
-
 
 
 
@@ -118,7 +97,8 @@ padding-left: 250px;
 .entrées, .plats, .desserts
 {
 margin: 20px;
-
+text-decoration: underline;
+text-decoration-style:solid;
 }
 
 
@@ -128,10 +108,10 @@ margin: 20px;
 
 .conteneurmenu
 {
-
 display: flex;
 flex-direction: column;
 border-radius: 30px;
+background-color: lightgray;
 /*position: absolute;
     z-index: 1; pas la bonne technique : ca fige la largeur     */
 }
@@ -148,11 +128,10 @@ border-radius: 30px;
     flex-direction: row;
     overflow: hidden;
     height: 100px;
-    width: 100%;
+    width: 600px;
     border-radius: 15px;
-    margin: 10px 0px;
+    margin: 10px 10px 10px 10px;
     padding: 0px 0px 0px 0px;
-    background-color: aqua;
     flex-wrap: nowrap;
     position: relative;
 }
