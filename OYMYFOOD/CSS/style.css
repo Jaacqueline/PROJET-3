@@ -323,6 +323,10 @@ body .partietexte {
           justify-content: space-between;
 }
 
+body .coeurs {
+  margin-right: 40px;
+}
+
 body .coeurs:hover .coeurplein {
   display: -webkit-box;
   display: -ms-flexbox;

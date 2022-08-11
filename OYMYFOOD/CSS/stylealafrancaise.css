@@ -24,7 +24,7 @@ content:"";      /*a mettre systematiquement avec tous les pseudo elements*/
 display: inline-block;
 height: 6px;
 width: 48px;
-background-color: red;
+background-color: #99E2D0;
 position:absolute;
 left: 0px;
 bottom: -10px;
@@ -62,7 +62,7 @@ margin-left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 100px;
+    width: 100%;
 
 
 }
@@ -83,9 +83,10 @@ object-fit: cover;
 border-radius: 50px 50px 0px 0px;
 overflow: hidden;
 background-color: lightgray;
-margin-top: -40px;
 padding: 20px;
+position: relative;
 }
+
 
 
 
@@ -132,6 +133,8 @@ margin: 20px;
 display: flex;
 flex-direction: column;
 border-radius: 30px;
+margin: 0px;
+background-color: aqua;
 /*position: absolute;
     z-index: 1; pas la bonne technique : ca fige la largeur     */
 }
@@ -234,7 +237,7 @@ padding-right: 20px;
 .coche
 {
     display: flex;
-    background-color: lightgreen;
+    background-color:#99E2D0;
     width: 100px!important;
     height: 100px;
     justify-content: center;
@@ -334,7 +337,7 @@ margin: 8px 0px 5px 0px;
 {
 display: flex;
 height: 50px;
-width: 250px;
+width: 300px;
 margin-bottom: 100px;
 margin-top: 40px;
 justify-content: center;
